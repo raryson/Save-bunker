@@ -2,14 +2,12 @@ const electron = require('electron')
 const path = require('path')
 const url = require('url')
 
+
 const {ipcRenderer} = require('electron')
 
 const app = electron.app
+
 const browserWindow = electron.BrowserWindow
-
-var locals;
-const pug = require('electron-pug')({pretty: true})
-
 
 //deixar a referencia ao objeto da tela principal instanciada para o garbage colector do js nao limpar ela
 //sim e gambiarra, mas ta na documentacao do electron assim
