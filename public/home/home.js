@@ -6,4 +6,30 @@ require('electron').ipcRenderer.on('user-data-info', (event, message) => {
 
     document.body.appendChild(newH2)
 
+
   })
+
+
+   Vue.component('email-input', {
+    template: '<input type="email" name="email"></input>'
+  })
+
+  Vue.component('password-input', {
+    template: '<input type="password" name="password"></input>'
+  })
+
+  Vue.component('login-button', {
+    template: '<button name="login">Logar</button>'
+  })
+
+  Vue.component('register-button', {
+    template: '<button name="register">Registrar</button>'
+  })
+
+  var app = new Vue({
+    el: '#app',
+    data: {
+          message: 'Hello Vue!'
+      }
+    })
+
