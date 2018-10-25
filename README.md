@@ -26,3 +26,4 @@ If you want to contribute or help, feel free.
 
 I am making this code for myself and the community, it is free for anyone to use and create on top of it, but if you copy the idea and do better, if you charge for the service at least give me a lifetime grace account.
 // I'm going to put a translation of the content posted here in English, but it will be Google Translate Feelings because I'm lazy.
+twenty twenty twenty four hours to gooooo, i wanna be sedated!
